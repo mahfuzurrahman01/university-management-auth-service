@@ -18,5 +18,5 @@ const createUserToDb = async (req: Request, res: Response) => {
 }
 
 export default {
-    createUserToDb
+  createUserToDb,
 }
