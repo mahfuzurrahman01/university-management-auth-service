@@ -9,7 +9,7 @@ const getLastUserId = async () => {
 
 const generateUserId = async () => {
   const userId = (await getLastUserId()) || (0).toString().padStart(5, '0')
-  const createdUserId = (parseInt(userId) + 1).toString().padStart(5,'0')
+  const createdUserId = (parseInt(userId) + 1).toString().padStart(5, '0')
   return createdUserId
 }
 
