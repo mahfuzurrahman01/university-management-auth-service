@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\.cf4cc0816eb79882a228275b20799434bf3fdf5f-audit.json",
+    "files": [
+        {
+            "date": 1685943068212,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-05-06-11-2023.log",
+            "hash": "5f1a630bacfa1a30d022c900cec0cb73c041a6f3195c86e3b24a11d57518dc4b"
+        },
+        {
+            "date": 1685946958886,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-05-06-12-2023.log",
+            "hash": "6dbc8c28d0d9788e78b4aaf09412b208a4c699a03cb9bc43c34fe44a5fe605d0"
+        },
+        {
+            "date": 1686027528738,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-06-06-10-2023.log",
+            "hash": "cacb8ebed86f94f1c56dd2b68b00465110065f81d2295993cd082f6b96bf6744"
+        },
+        {
+            "date": 1686028157761,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-06-06-11-2023.log",
+            "hash": "7eefbe2fcb1e84f706b2fed59d58d3705dd1af5019e8114c62a38543e6441fd5"
+        }
+    ],
+    "hashType": "sha256"
+}
