@@ -6,24 +6,29 @@
     "auditLog": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\.c850eb6d4e140584b7cf94aa10282cd5453284b3-audit.json",
     "files": [
         {
-            "date": 1685943068202,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-05-06-11-2023.log",
-            "hash": "e2080b8a2e38c36d8cbc52dc41523260a35402fcbb4c161ad99c3b3320df8010"
+            "date": 1686205789651,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-12-2023.log",
+            "hash": "11280964ffa6b1816b248c2d1afe7c2e1a3749dd6fd739f816de5f20f7269796"
         },
         {
-            "date": 1685946958878,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-05-06-12-2023.log",
-            "hash": "590cd50234f19d7fe99f68e0890a2df61f1b655ea0c91c30604c358866da33dd"
+            "date": 1686207894750,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-13-2023.log",
+            "hash": "c15bcf3ae87902733cab5c4e19c7bd8d12a3d81edbd621882c068b896a2ec042"
         },
         {
-            "date": 1686027528720,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-06-06-10-2023.log",
-            "hash": "f77c8a3350b6b70d6c85ee0b78cad9179bf4296295e8ef2b3ef32ba9020be2a9"
+            "date": 1686233006222,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-20-2023.log",
+            "hash": "1d0351cdc7e393bcb8d4ddcd3a166679d62f68a3462b48cd5e939fcc72780d1f"
         },
         {
-            "date": 1686028157755,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-06-06-11-2023.log",
-            "hash": "26b2685ce04cc1f149b39342094e42687b5bd039fe261f8e20b8fab1b3e29efb"
+            "date": 1686241009153,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-22-2023.log",
+            "hash": "473a3af006c39239cfdbdce27e8491e8642a96981327d7d60bfbc1d581cf6f71"
+        },
+        {
+            "date": 1686387684870,
+            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-15-2023.log",
+            "hash": "db5519757c8a44489254416c0a0ce166310869d753efdb17abd5f6c4711f9ff0"
         }
     ],
     "hashType": "sha256"

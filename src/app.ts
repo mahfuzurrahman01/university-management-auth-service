@@ -1,40 +1,28 @@
-import express, { Application, NextFunction, Request, Response } from 'express'
-import userRoute from './app/modules/users/user.routes'
+import express, { Application, Request, Response } from 'express'
 const app: Application = express()
 import cors from 'cors'
-
-class ApiError extends Error {
-  statusCode: number
-  constructor(statusCode: number, message: string | undefined, stack = '') {
-    super(message)
-    this.statusCode = statusCode
-    if (stack) {
-      this.stack = stack
-    }else {
-      Error.captureStackTrace(this,this.constructor)
-    }
-  }
-}
+import globalErrorHandler from './app/middleware/globalErrorHandler'
+import { userRouter } from './app/modules/user/user.routes'
 
 // using middleware
 app.use(cors())
 // parser
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-app.use('/api/v1/users/', userRoute)
+app.use('/api/v1/users/', userRouter)
 
-app.get('/', (req: Request, res: Response, next: NextFunction) => {
-  throw new ApiError(400,'hello this is an error')
+app.get('/', async (req: Request, res: Response) => {
+  // throw new Error('hello this is an error for test')
   // next('new error occurred') // error
+  res.status(200).json({
+    success: true,
+    message:'good work'
+  })
+  // Promise.reject((new Error('Unhandled rejection')))
+  // console.log(x);
+  
 })
 
-// app.use((err,req: request,res: response,next: NextFunction) =>{
-//   console.log(err)
-//    if(err instanceof Error){
-//     res.status(400).json({error: err})
-//    }else {
-//     res.status(500).json({error: 'something went wrong'})
-//    }
-// })
+app.use(globalErrorHandler)
 
 export default app
