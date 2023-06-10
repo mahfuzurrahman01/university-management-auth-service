@@ -1,7 +1,7 @@
-import { IGenericInterface } from './errorInterface'
+import { IGenericErrorInterface } from './errorInterface';
 
 export type IGenericResponseInterface = {
-  statusCode: number
-  message: string
-  errorMessage: IGenericInterface[]
-}
+  statusCode: number;
+  message: string;
+  errorMessage: IGenericErrorInterface[];
+};

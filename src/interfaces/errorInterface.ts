@@ -1,4 +1,4 @@
-export type IGenericInterface = {
-  path: string
-  message: string
-}
+export type IGenericErrorInterface = {
+  path: string | number;
+  message: string;
+};
