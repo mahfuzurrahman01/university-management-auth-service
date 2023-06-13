@@ -5,6 +5,8 @@ import {
   academicSemesterMonths,
   academicSemesterTitle,
 } from './academic.constant';
+import ApiError from '../../../errors/apiErrors';
+import status from 'http-status';
 
 export const academicSemesterSchema = new Schema<IAcademic>(
   {
@@ -37,6 +39,17 @@ export const academicSemesterSchema = new Schema<IAcademic>(
     timestamps: true,
   }
 );
+
+academicSemesterSchema.pre('save', async function (next) {
+  const isExists = await academicSemester.findOne({
+    title: this.title,
+    year: this.year,
+  });
+  if (isExists) {
+    throw new ApiError(status.CONFLICT, 'This semester is already exists!');
+  }
+  next();
+});
 
 export const academicSemester = model<IAcademic, academicSemesterModel>(
   'AcademicSemester',

@@ -1,27 +1,40 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 const app: Application = express();
 import cors from 'cors';
 import globalErrorHandler from './app/middleware/globalErrorHandler';
-import { userRouter } from './app/modules/user/user.routes';
+import router from './app/routes';
+import { sendResponse } from './shared/sendResponse';
+import httpStatus from 'http-status';
 
 // using middleware
 app.use(cors());
 // parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api/v1/users/', userRouter);
+app.use('/api/v1', router);
 
 app.get('/', async (req: Request, res: Response) => {
-  // throw new Error('hello this is an error for test')
-  // next('new error occurred') // error
-  res.status(200).json({
+  sendResponse(res, {
+    statusCode: 200,
     success: true,
-    message: 'good work',
+    message: 'BOOM BOOM its running',
   });
-  // Promise.reject((new Error('Unhandled rejection')))
-  // console.log(x);
 });
 
 app.use(globalErrorHandler);
+
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Api not found',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'API not found',
+      },
+    ],
+  });
+  next();
+});
 
 export default app;
