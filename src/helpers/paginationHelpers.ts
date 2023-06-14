@@ -25,7 +25,7 @@ const paginationCalculation = (options: IOptions): IOptionsResult => {
     limit,
     skip,
     sortBy,
-    sortOrder
+    sortOrder,
   };
 };
 
