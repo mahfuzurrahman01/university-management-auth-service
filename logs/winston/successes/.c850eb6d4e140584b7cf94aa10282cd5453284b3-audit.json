@@ -1,170 +1,170 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\.c850eb6d4e140584b7cf94aa10282cd5453284b3-audit.json",
+  "files": [
+    {
+      "date": 1686205789651,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-12-2023.log",
+      "hash": "11280964ffa6b1816b248c2d1afe7c2e1a3749dd6fd739f816de5f20f7269796"
     },
-    "auditLog": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\.c850eb6d4e140584b7cf94aa10282cd5453284b3-audit.json",
-    "files": [
-        {
-            "date": 1686205789651,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-12-2023.log",
-            "hash": "11280964ffa6b1816b248c2d1afe7c2e1a3749dd6fd739f816de5f20f7269796"
-        },
-        {
-            "date": 1686207894750,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-13-2023.log",
-            "hash": "c15bcf3ae87902733cab5c4e19c7bd8d12a3d81edbd621882c068b896a2ec042"
-        },
-        {
-            "date": 1686233006222,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-20-2023.log",
-            "hash": "1d0351cdc7e393bcb8d4ddcd3a166679d62f68a3462b48cd5e939fcc72780d1f"
-        },
-        {
-            "date": 1686241009153,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-22-2023.log",
-            "hash": "473a3af006c39239cfdbdce27e8491e8642a96981327d7d60bfbc1d581cf6f71"
-        },
-        {
-            "date": 1686387684870,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-15-2023.log",
-            "hash": "db5519757c8a44489254416c0a0ce166310869d753efdb17abd5f6c4711f9ff0"
-        },
-        {
-            "date": 1686392649352,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-16-2023.log",
-            "hash": "5814561e58301aacaaaf82959f9e1bcc0ea2365655fc748493905790c563fd07"
-        },
-        {
-            "date": 1686395061978,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-17-2023.log",
-            "hash": "657286b797946c342993ad454cdd30960a2321c1859960f5f1d6cb51caf73e30"
-        },
-        {
-            "date": 1686484038905,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-17-2023.log",
-            "hash": "06ceb7a40567fa518430ac5239a79c373f1bb23592d03802bc694cc344a804a4"
-        },
-        {
-            "date": 1686484800455,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-18-2023.log",
-            "hash": "b0883795033887da1ddc9a2ec181c135d5fbbeaf74a3dd6dd1ad1a25d9819df2"
-        },
-        {
-            "date": 1686492962872,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-20-2023.log",
-            "hash": "894810b332a4efdbca21fdb5c0a4795a51e56b786dbe26e26b1e695a6e66c9b2"
-        },
-        {
-            "date": 1686496500552,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-21-2023.log",
-            "hash": "1d25e166b24c616aa0710855a77d7099e11cc116a43d9822aa163482c63a16f6"
-        },
-        {
-            "date": 1686500261289,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-22-2023.log",
-            "hash": "d65f7fe4472de582f9f904a1316186cbb559802ef1bc79e81a23c32160a416aa"
-        },
-        {
-            "date": 1686580423945,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-12-06-20-2023.log",
-            "hash": "aaf87a582f733ce37bf1c370781fc7f450a8095d7b51f14fa51df772976c4810"
-        },
-        {
-            "date": 1686582163482,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-12-06-21-2023.log",
-            "hash": "e01d552991404013c09a07fe6c5190607eeed04cb5e720b961272e95c216980b"
-        },
-        {
-            "date": 1686629885955,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-10-2023.log",
-            "hash": "455100fe0801ecac63d4fda110eb9947eaf4803564749641bc568a2196fa8ba7"
-        },
-        {
-            "date": 1686635180455,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-11-2023.log",
-            "hash": "1498ba7831340dd2661ee4a65c5b19ace4c9b6c7cdac5c9bf40644a3de13672d"
-        },
-        {
-            "date": 1686636696138,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-12-2023.log",
-            "hash": "f1306ee3b4e1ff2cd4458207e183bcbfdd843f75c2188f8e387d1461fb4a12e5"
-        },
-        {
-            "date": 1686652552893,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-16-2023.log",
-            "hash": "8f3d7f71bdddbc4456ea76d88e17e539cf4e012a8eb1401a62a83afbcc4983fd"
-        },
-        {
-            "date": 1686670565125,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-21-2023.log",
-            "hash": "af5465ab75e782761b37817b47d0f8af928cc3f1725264ad0e4f3ac9bdf64bea"
-        },
-        {
-            "date": 1686716209595,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-10-2023.log",
-            "hash": "0a02e27101dd72ef4d26ad6a7509f91cf2f6d7d1057af5f05c4a85a74777559c"
-        },
-        {
-            "date": 1686718961017,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-11-2023.log",
-            "hash": "f8d4c62ca7353c7f07706e00a99604d39f14ddf0f2618840ecb8023ed03bc5dc"
-        },
-        {
-            "date": 1686722402473,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-12-2023.log",
-            "hash": "23277f00c05d05345dc2597c88f0f663715e54c3eccd30e85c7987c47859da31"
-        },
-        {
-            "date": 1686734152841,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-15-2023.log",
-            "hash": "9094b46efbb710e0186013962940f598eae41661261ec005faf03b4c3e2dfb35"
-        },
-        {
-            "date": 1686738319869,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-16-2023.log",
-            "hash": "0a01e5348a6439f8627e3e98f236a30674f4fbb99abf3e58e0b695735ff63d39"
-        },
-        {
-            "date": 1686742997528,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-17-2023.log",
-            "hash": "debb08c5e630fb7a04a59b29593cd2af0a176aecf4938764a1daf12f0ab93f41"
-        },
-        {
-            "date": 1686745125837,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-18-2023.log",
-            "hash": "b291f33e1ea52bbf3df40e54076db6f39c72df3b107104402b26e06b06e00e0d"
-        },
-        {
-            "date": 1686751386217,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-20-2023.log",
-            "hash": "5cac14764647755c9c6f0c0880b25ec83b065a78ff589a29b2504ac1b3e0ab0a"
-        },
-        {
-            "date": 1686754860549,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-21-2023.log",
-            "hash": "0589b15572d01a0097e87c9847b1b0d6cfdbc182a631fcff8dc676915206b4f8"
-        },
-        {
-            "date": 1686768451508,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-00-2023.log",
-            "hash": "efb5baf41508b6cef80764c615c8f602c9b54292611485e2081d22463c535754"
-        },
-        {
-            "date": 1686803954437,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-10-2023.log",
-            "hash": "397d3253601e531ec6356d7e4c4442d1cdd6d839932bd6827f40b9ab634ecfb8"
-        },
-        {
-            "date": 1686805388200,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-11-2023.log",
-            "hash": "b4f3068701eda4b58e579716448fcafec7c1e86adb655fc3da35e1419ee05a17"
-        },
-        {
-            "date": 1686809816747,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-12-2023.log",
-            "hash": "6f34dc7657a8197b0a1d0f52c037ce2386104a8841166204d400c2295f4b075e"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686207894750,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-13-2023.log",
+      "hash": "c15bcf3ae87902733cab5c4e19c7bd8d12a3d81edbd621882c068b896a2ec042"
+    },
+    {
+      "date": 1686233006222,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-20-2023.log",
+      "hash": "1d0351cdc7e393bcb8d4ddcd3a166679d62f68a3462b48cd5e939fcc72780d1f"
+    },
+    {
+      "date": 1686241009153,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-08-06-22-2023.log",
+      "hash": "473a3af006c39239cfdbdce27e8491e8642a96981327d7d60bfbc1d581cf6f71"
+    },
+    {
+      "date": 1686387684870,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-15-2023.log",
+      "hash": "db5519757c8a44489254416c0a0ce166310869d753efdb17abd5f6c4711f9ff0"
+    },
+    {
+      "date": 1686392649352,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-16-2023.log",
+      "hash": "5814561e58301aacaaaf82959f9e1bcc0ea2365655fc748493905790c563fd07"
+    },
+    {
+      "date": 1686395061978,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-10-06-17-2023.log",
+      "hash": "657286b797946c342993ad454cdd30960a2321c1859960f5f1d6cb51caf73e30"
+    },
+    {
+      "date": 1686484038905,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-17-2023.log",
+      "hash": "06ceb7a40567fa518430ac5239a79c373f1bb23592d03802bc694cc344a804a4"
+    },
+    {
+      "date": 1686484800455,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-18-2023.log",
+      "hash": "b0883795033887da1ddc9a2ec181c135d5fbbeaf74a3dd6dd1ad1a25d9819df2"
+    },
+    {
+      "date": 1686492962872,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-20-2023.log",
+      "hash": "894810b332a4efdbca21fdb5c0a4795a51e56b786dbe26e26b1e695a6e66c9b2"
+    },
+    {
+      "date": 1686496500552,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-21-2023.log",
+      "hash": "1d25e166b24c616aa0710855a77d7099e11cc116a43d9822aa163482c63a16f6"
+    },
+    {
+      "date": 1686500261289,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-11-06-22-2023.log",
+      "hash": "d65f7fe4472de582f9f904a1316186cbb559802ef1bc79e81a23c32160a416aa"
+    },
+    {
+      "date": 1686580423945,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-12-06-20-2023.log",
+      "hash": "aaf87a582f733ce37bf1c370781fc7f450a8095d7b51f14fa51df772976c4810"
+    },
+    {
+      "date": 1686582163482,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-12-06-21-2023.log",
+      "hash": "e01d552991404013c09a07fe6c5190607eeed04cb5e720b961272e95c216980b"
+    },
+    {
+      "date": 1686629885955,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-10-2023.log",
+      "hash": "455100fe0801ecac63d4fda110eb9947eaf4803564749641bc568a2196fa8ba7"
+    },
+    {
+      "date": 1686635180455,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-11-2023.log",
+      "hash": "1498ba7831340dd2661ee4a65c5b19ace4c9b6c7cdac5c9bf40644a3de13672d"
+    },
+    {
+      "date": 1686636696138,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-12-2023.log",
+      "hash": "f1306ee3b4e1ff2cd4458207e183bcbfdd843f75c2188f8e387d1461fb4a12e5"
+    },
+    {
+      "date": 1686652552893,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-16-2023.log",
+      "hash": "8f3d7f71bdddbc4456ea76d88e17e539cf4e012a8eb1401a62a83afbcc4983fd"
+    },
+    {
+      "date": 1686670565125,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-13-06-21-2023.log",
+      "hash": "af5465ab75e782761b37817b47d0f8af928cc3f1725264ad0e4f3ac9bdf64bea"
+    },
+    {
+      "date": 1686716209595,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-10-2023.log",
+      "hash": "0a02e27101dd72ef4d26ad6a7509f91cf2f6d7d1057af5f05c4a85a74777559c"
+    },
+    {
+      "date": 1686718961017,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-11-2023.log",
+      "hash": "f8d4c62ca7353c7f07706e00a99604d39f14ddf0f2618840ecb8023ed03bc5dc"
+    },
+    {
+      "date": 1686722402473,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-12-2023.log",
+      "hash": "23277f00c05d05345dc2597c88f0f663715e54c3eccd30e85c7987c47859da31"
+    },
+    {
+      "date": 1686734152841,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-15-2023.log",
+      "hash": "9094b46efbb710e0186013962940f598eae41661261ec005faf03b4c3e2dfb35"
+    },
+    {
+      "date": 1686738319869,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-16-2023.log",
+      "hash": "0a01e5348a6439f8627e3e98f236a30674f4fbb99abf3e58e0b695735ff63d39"
+    },
+    {
+      "date": 1686742997528,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-17-2023.log",
+      "hash": "debb08c5e630fb7a04a59b29593cd2af0a176aecf4938764a1daf12f0ab93f41"
+    },
+    {
+      "date": 1686745125837,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-18-2023.log",
+      "hash": "b291f33e1ea52bbf3df40e54076db6f39c72df3b107104402b26e06b06e00e0d"
+    },
+    {
+      "date": 1686751386217,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-20-2023.log",
+      "hash": "5cac14764647755c9c6f0c0880b25ec83b065a78ff589a29b2504ac1b3e0ab0a"
+    },
+    {
+      "date": 1686754860549,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-14-06-21-2023.log",
+      "hash": "0589b15572d01a0097e87c9847b1b0d6cfdbc182a631fcff8dc676915206b4f8"
+    },
+    {
+      "date": 1686768451508,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-00-2023.log",
+      "hash": "efb5baf41508b6cef80764c615c8f602c9b54292611485e2081d22463c535754"
+    },
+    {
+      "date": 1686803954437,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-10-2023.log",
+      "hash": "397d3253601e531ec6356d7e4c4442d1cdd6d839932bd6827f40b9ab634ecfb8"
+    },
+    {
+      "date": 1686805388200,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-11-2023.log",
+      "hash": "b4f3068701eda4b58e579716448fcafec7c1e86adb655fc3da35e1419ee05a17"
+    },
+    {
+      "date": 1686809816747,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\successes\\success-info-15-06-12-2023.log",
+      "hash": "6f34dc7657a8197b0a1d0f52c037ce2386104a8841166204d400c2295f4b075e"
+    }
+  ],
+  "hashType": "sha256"
 }

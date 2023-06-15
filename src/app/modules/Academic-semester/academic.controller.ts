@@ -41,7 +41,6 @@ const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
     meta: result.meta,
     data: result.data,
   });
-  
 });
 
 const getSingleSemester = async (
@@ -72,7 +71,7 @@ const updateSemester = catchAsync(async (req: Request, res: Response) => {
     statusCode: status.OK,
     success: true,
     message: 'Successfully updated semester',
-    data: result
+    data: result,
   });
 });
 const deleteSemester = catchAsync(async (req: Request, res: Response) => {
@@ -82,15 +81,14 @@ const deleteSemester = catchAsync(async (req: Request, res: Response) => {
     statusCode: status.OK,
     success: true,
     message: 'Successfully deleted semester',
-    data: result
+    data: result,
   });
 });
-
 
 export const academicSemesterController = {
   getSingleSemester,
   createSemester,
   getAllSemesters,
   updateSemester,
-  deleteSemester
+  deleteSemester,
 };
