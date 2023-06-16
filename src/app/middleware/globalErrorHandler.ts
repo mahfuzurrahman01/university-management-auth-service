@@ -1,4 +1,4 @@
-import { ErrorRequestHandler } from 'express';
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 import { IGenericErrorInterface } from '../../interfaces/errorInterface';
 import config from '../../config';
 import handleValidationError from '../../errors/handleValidationError';
@@ -7,25 +7,31 @@ import ApiError from '../../errors/apiErrors';
 import { ZodError } from 'zod';
 import validationZodError from '../../errors/validationZodError';
 import handleCastError from '../../errors/handleCastError';
+import { errorLogger } from '../../shared/logger';
 
-const globalErrorHandler: ErrorRequestHandler = (err, req, res) => {
-  let statusCode = 400;
-  let message = 'something went wrong';
+const globalErrorHandler: ErrorRequestHandler = (
+  err,
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  // eslint-disable-next-line no-unused-expressions
+  config.env === 'development'
+    ? console.log('global error handler', err)
+    : errorLogger.error('Global error handler', err);
+
+  let statusCode = 500;
+  let message = 'something went wrong!';
   const success = false;
   let errorMessages: IGenericErrorInterface[] = [];
 
-  // eslint-disable-next-line no-unused-expressions
-  // config.env === 'development'
-  //   ? console.log('global error handler', err)
-  //   : errorLogger.error('Global error handler', err)
-
-  if (err instanceof ZodError) {
-    const simplifiedError = validationZodError(err);
+  if (err?.name === 'ValidationError') {
+    const simplifiedError = handleValidationError(err);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessage;
-  } else if (err.name === 'ValidationError') {
-    const simplifiedError = handleValidationError(err);
+  } else if (err instanceof ZodError) {
+    const simplifiedError = validationZodError(err);
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessage;
