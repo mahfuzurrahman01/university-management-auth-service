@@ -1,4 +1,4 @@
-import { ErrorRequestHandler, Request, Response } from 'express';
+import { ErrorRequestHandler,NextFunction, Request, Response } from 'express';
 import { IGenericErrorInterface } from '../../interfaces/errorInterface';
 import config from '../../config';
 import handleValidationError from '../../errors/handleValidationError';
@@ -12,8 +12,8 @@ import { errorLogger } from '../../shared/logger';
 const globalErrorHandler: ErrorRequestHandler = (
   err,
   req: Request,
-  res: Response
-  // next: NextFunction
+  res: Response,
+  next: NextFunction
 ) => {
   // eslint-disable-next-line no-unused-expressions
   config.env === 'development'
