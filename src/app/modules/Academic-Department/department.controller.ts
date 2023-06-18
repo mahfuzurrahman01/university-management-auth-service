@@ -37,43 +37,43 @@ const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
 });
 
 const updateDepartment = catchAsync(async (req: Request, res: Response) => {
-    const id = req.params.id;
-    const updatedData = req.body;
-    const result = await departmentService.updateDepartment(id, updatedData);
-    sendResponse<IAcademicDepartment>(res, {
-      statusCode: status.OK,
-      success: true,
-      message: 'Successfully updated Department',
-      data: result,
-    });
+  const id = req.params.id;
+  const updatedData = req.body;
+  const result = await departmentService.updateDepartment(id, updatedData);
+  sendResponse<IAcademicDepartment>(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Successfully updated Department',
+    data: result,
   });
+});
 
 const getSingleDepartment = catchAsync(async (req: Request, res: Response) => {
-    const id = req.params.id;
-    const result = await departmentService.getASingleDepartment(id);
-    sendResponse<IAcademicDepartment>(res, {
-      statusCode: status.OK,
-      success: true,
-      message: 'Successfully retrieved this department',
-      data: result,
-    });
+  const id = req.params.id;
+  const result = await departmentService.getASingleDepartment(id);
+  sendResponse<IAcademicDepartment>(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Successfully retrieved this department',
+    data: result,
   });
+});
 
-  const deleteDepartment = catchAsync(async (req: Request, res: Response) => {
-    const id = req.params.id;
-    const result = await departmentService.deleteDepartment(id);
-    sendResponse<IAcademicDepartment>(res, {
-      statusCode: status.OK,
-      success: true,
-      message: 'Successfully deleted department',
-      data: result,
-    });
+const deleteDepartment = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const result = await departmentService.deleteDepartment(id);
+  sendResponse<IAcademicDepartment>(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Successfully deleted department',
+    data: result,
   });
+});
 
 export const AcademicDepartmentController = {
   createDepartment,
   getAllFaculties,
   updateDepartment,
   getSingleDepartment,
-  deleteDepartment
+  deleteDepartment,
 };

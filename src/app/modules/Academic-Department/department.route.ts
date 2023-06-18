@@ -16,7 +16,7 @@ router.patch(
   validationRequest(departmentValidation.updateAcademicDepartmentZodSchema),
   AcademicDepartmentController.updateDepartment
 );
-router.get('/:id',AcademicDepartmentController.getSingleDepartment)
-router.delete('/:id',AcademicDepartmentController.deleteDepartment)
+router.get('/:id', AcademicDepartmentController.getSingleDepartment);
+router.delete('/:id', AcademicDepartmentController.deleteDepartment);
 
 export const academicDepartmentRouter = router;

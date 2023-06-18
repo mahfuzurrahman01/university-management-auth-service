@@ -76,10 +76,10 @@ const getASingleDepartment = async (id: string) => {
   return result;
 };
 const deleteDepartment = async (id: string) => {
-    const result = await AcademicDepartment.findByIdAndDelete(id);
-    return result;
-  };
-  
+  const result = await AcademicDepartment.findByIdAndDelete(id);
+  return result;
+};
+
 export const departmentService = {
   createDepartment,
   getAllDepartment,
