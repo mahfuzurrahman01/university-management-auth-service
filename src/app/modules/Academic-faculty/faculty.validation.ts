@@ -17,5 +17,5 @@ const zodAcademicFacultyUpdateSchema = z.object({
 
 export const facultyValidation = {
   zodAcademicFacultySchema,
-  zodAcademicFacultyUpdateSchema
+  zodAcademicFacultyUpdateSchema,
 };

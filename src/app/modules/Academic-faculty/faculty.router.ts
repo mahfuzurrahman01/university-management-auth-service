@@ -16,5 +16,5 @@ router.patch(
   validationRequest(facultyValidation.zodAcademicFacultyUpdateSchema),
   academicFacultyController.updateFaculty
 );
-router.delete('/:id',academicFacultyController.deleteFaculty)
+router.delete('/:id', academicFacultyController.deleteFaculty);
 export const academicFacultyRouter = router;

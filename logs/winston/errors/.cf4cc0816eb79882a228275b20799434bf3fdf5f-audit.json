@@ -1,210 +1,210 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\.cf4cc0816eb79882a228275b20799434bf3fdf5f-audit.json",
+  "files": [
+    {
+      "date": 1686205789659,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-12-2023.log",
+      "hash": "d2a642fa13a62b1b325ef816510fe13a01318a42804088253e0d318df7bf4261"
     },
-    "auditLog": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\.cf4cc0816eb79882a228275b20799434bf3fdf5f-audit.json",
-    "files": [
-        {
-            "date": 1686205789659,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-12-2023.log",
-            "hash": "d2a642fa13a62b1b325ef816510fe13a01318a42804088253e0d318df7bf4261"
-        },
-        {
-            "date": 1686207894758,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-13-2023.log",
-            "hash": "83f4031e16142dfe5cdb74be9a4c838f0c5cf37ccc8499974772fa86cb6c5d6d"
-        },
-        {
-            "date": 1686233006250,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-20-2023.log",
-            "hash": "4345be8af1b57f2147e58499e8f7ce9fa74e57f731e6e80a7819f48836971c06"
-        },
-        {
-            "date": 1686241009162,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-22-2023.log",
-            "hash": "0b93fa536dcc3645688312712a2fc1e45bebba543868598a78641b1f628ccdce"
-        },
-        {
-            "date": 1686387684892,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-10-06-15-2023.log",
-            "hash": "1dbe2253dd9443b41c82a9d104e5dfdd10fbfa948c040c9182fad2c01c36dfb7"
-        },
-        {
-            "date": 1686392649359,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-10-06-16-2023.log",
-            "hash": "7e4ec2b4ab5e49cd63117efc8e59e269a4d60cf0b6afa312cf47ede9b123019c"
-        },
-        {
-            "date": 1686395061987,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-10-06-17-2023.log",
-            "hash": "e3d73f522af1d5442f5a254e8b5c7ab502f8e229113ed3db3ea9c26a022bebd4"
-        },
-        {
-            "date": 1686484038913,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-17-2023.log",
-            "hash": "0d217d548e70cf6dfb706078ecfe4b82a208a4f590c911d891ee02155efe70c4"
-        },
-        {
-            "date": 1686484800459,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-18-2023.log",
-            "hash": "00fd2a225a4801bb8855af8850e7f51536184fcf7a40bcd20d7faaa58e7dadce"
-        },
-        {
-            "date": 1686492962883,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-20-2023.log",
-            "hash": "686532c240cd18ef7099d7f25a81b331ecf83ff867815f67168fb6a3a205a86f"
-        },
-        {
-            "date": 1686496500556,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-21-2023.log",
-            "hash": "2e24ce9a10ac6b8f69e9caebd93a0fbe6fe69b46d1ddcf4d134471901a533d00"
-        },
-        {
-            "date": 1686500261295,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-22-2023.log",
-            "hash": "582cc8cc1c950b8bae502f6734630b7574c2c3c51f9393ec0b9bfee3ec20d19b"
-        },
-        {
-            "date": 1686580423977,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-12-06-20-2023.log",
-            "hash": "994083b2913fee2e3f451d39a9e50cce2ad5348d0649d82372df69ee7b90a578"
-        },
-        {
-            "date": 1686582163494,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-12-06-21-2023.log",
-            "hash": "e1c8947f0a0c1687c4817e592a0f20f08becb999a79beaab6c50b554d33e46ba"
-        },
-        {
-            "date": 1686629885974,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-10-2023.log",
-            "hash": "c83001c7f10afc16aabfcc8b2223710b288fc9c2c0e6be9312052d6e1b7cb4ba"
-        },
-        {
-            "date": 1686635180460,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-11-2023.log",
-            "hash": "5ff05d194613680c74bb171c686ffe4d745398b48cc8358bfb1f68097393f623"
-        },
-        {
-            "date": 1686636696147,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-12-2023.log",
-            "hash": "b15f450e83effdc4d1e1a1d8b4a265e584823d00807b79a43583aaf34ca4a698"
-        },
-        {
-            "date": 1686652552906,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-16-2023.log",
-            "hash": "e00b91e00cff43c08aa24b980fde7f0779c12c747fbd3ea7983f6f8ed3e29b83"
-        },
-        {
-            "date": 1686670565131,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-21-2023.log",
-            "hash": "0565e5c497426cfee6e07a218a6fcfaa2d1f6f4a84f432eae6cd2584612efc0e"
-        },
-        {
-            "date": 1686716209612,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-10-2023.log",
-            "hash": "854037f26696401cb2983f3813e8476d293571e31b39fa2cf2434453b51636b5"
-        },
-        {
-            "date": 1686718961027,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-11-2023.log",
-            "hash": "f11cee878ca470431229819fa4c96f5bb1e8d2efd37416cac567a9875e2ddeb4"
-        },
-        {
-            "date": 1686722402482,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-12-2023.log",
-            "hash": "2502d9e0a10067562209e8cc84f2a5663959c59c9c385066bb6959ac6ac7e0e9"
-        },
-        {
-            "date": 1686734152860,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-15-2023.log",
-            "hash": "ca985793fc6c334e3b238e46f3678252b0a86017e460f5808a7c10f6b5c4b008"
-        },
-        {
-            "date": 1686738319878,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-16-2023.log",
-            "hash": "1d390219029ee0bba4125ee724f636cd6aeeeee03c18352b9310d8af6b736cc3"
-        },
-        {
-            "date": 1686742997542,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-17-2023.log",
-            "hash": "16600fa91b093c462192673a01e1aace562a76c41e71ea92bbfe122a9e0adf33"
-        },
-        {
-            "date": 1686745125850,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-18-2023.log",
-            "hash": "c7648033017e90c3dc97ab867b36c481f68138e81c201a76be955759ecf51256"
-        },
-        {
-            "date": 1686751386224,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-20-2023.log",
-            "hash": "a79684982aa359365b88249374dba99423d17aa4bdd5262ae812d540b8c32b63"
-        },
-        {
-            "date": 1686754860556,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-21-2023.log",
-            "hash": "70d568e53ac5c25c1b104d8afad5b7e50438ac7a4d9d30675ebc4b11a075648f"
-        },
-        {
-            "date": 1686768451527,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-00-2023.log",
-            "hash": "26ed2f428e2fb5a5ea18930cafd64ad12dfaa968e7ca0d0fde9906e89c81fbd1"
-        },
-        {
-            "date": 1686803954451,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-10-2023.log",
-            "hash": "a1c45db38edfcbe0ddf74e51fe4c801dab5a710e848b10d8c7fba7c630d68fe7"
-        },
-        {
-            "date": 1686805388208,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-11-2023.log",
-            "hash": "c7ebb7797b7a3672cc2428af60b373936caee8a7aed13da37a0117560d911c75"
-        },
-        {
-            "date": 1686809816759,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-12-2023.log",
-            "hash": "18f08883a8c403f86ce67fbd42f431619d3744e51adbcf2016f34db8ea133657"
-        },
-        {
-            "date": 1686926132779,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-20-2023.log",
-            "hash": "6bba3e46e481a4e9413fe7dea30129813900c3c6cf0634e06b446534fdb163e2"
-        },
-        {
-            "date": 1686928174974,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-21-2023.log",
-            "hash": "8ef960d339ae5c0578812f93bfda2d1aeb9d8b186b26b4cd348c18c0923b80f6"
-        },
-        {
-            "date": 1686932564111,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-22-2023.log",
-            "hash": "a1e17396b5898cbb076c99ba4463a95148d8b1d06f0dab5b2a90b3d85972d908"
-        },
-        {
-            "date": 1686936801918,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-23-2023.log",
-            "hash": "d58d5b125df173ff93a06c1c014723f6fd88bb0f868aa0b2f6049a76389e3f00"
-        },
-        {
-            "date": 1686939477256,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-17-06-00-2023.log",
-            "hash": "3e4498bc9d23cec3b00d0b8234b48bf307a546f479241ba543682466c181b557"
-        },
-        {
-            "date": 1687060296902,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-18-06-09-2023.log",
-            "hash": "56cc0b0c7e7e243920b6f58cb91a74872eb038155d84300416129f201b2a8930"
-        },
-        {
-            "date": 1687060810005,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-18-06-10-2023.log",
-            "hash": "c5710fa5c13b1813d402370e05b06504b6f731a1c89ae59e32e74e080b177277"
-        },
-        {
-            "date": 1687064401166,
-            "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-18-06-11-2023.log",
-            "hash": "a496d05e47125427a1ac1481b839f4427d0327abfdd6f1f7b15f8dbcc1ac5c08"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686207894758,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-13-2023.log",
+      "hash": "83f4031e16142dfe5cdb74be9a4c838f0c5cf37ccc8499974772fa86cb6c5d6d"
+    },
+    {
+      "date": 1686233006250,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-20-2023.log",
+      "hash": "4345be8af1b57f2147e58499e8f7ce9fa74e57f731e6e80a7819f48836971c06"
+    },
+    {
+      "date": 1686241009162,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-08-06-22-2023.log",
+      "hash": "0b93fa536dcc3645688312712a2fc1e45bebba543868598a78641b1f628ccdce"
+    },
+    {
+      "date": 1686387684892,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-10-06-15-2023.log",
+      "hash": "1dbe2253dd9443b41c82a9d104e5dfdd10fbfa948c040c9182fad2c01c36dfb7"
+    },
+    {
+      "date": 1686392649359,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-10-06-16-2023.log",
+      "hash": "7e4ec2b4ab5e49cd63117efc8e59e269a4d60cf0b6afa312cf47ede9b123019c"
+    },
+    {
+      "date": 1686395061987,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-10-06-17-2023.log",
+      "hash": "e3d73f522af1d5442f5a254e8b5c7ab502f8e229113ed3db3ea9c26a022bebd4"
+    },
+    {
+      "date": 1686484038913,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-17-2023.log",
+      "hash": "0d217d548e70cf6dfb706078ecfe4b82a208a4f590c911d891ee02155efe70c4"
+    },
+    {
+      "date": 1686484800459,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-18-2023.log",
+      "hash": "00fd2a225a4801bb8855af8850e7f51536184fcf7a40bcd20d7faaa58e7dadce"
+    },
+    {
+      "date": 1686492962883,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-20-2023.log",
+      "hash": "686532c240cd18ef7099d7f25a81b331ecf83ff867815f67168fb6a3a205a86f"
+    },
+    {
+      "date": 1686496500556,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-21-2023.log",
+      "hash": "2e24ce9a10ac6b8f69e9caebd93a0fbe6fe69b46d1ddcf4d134471901a533d00"
+    },
+    {
+      "date": 1686500261295,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-11-06-22-2023.log",
+      "hash": "582cc8cc1c950b8bae502f6734630b7574c2c3c51f9393ec0b9bfee3ec20d19b"
+    },
+    {
+      "date": 1686580423977,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-12-06-20-2023.log",
+      "hash": "994083b2913fee2e3f451d39a9e50cce2ad5348d0649d82372df69ee7b90a578"
+    },
+    {
+      "date": 1686582163494,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-12-06-21-2023.log",
+      "hash": "e1c8947f0a0c1687c4817e592a0f20f08becb999a79beaab6c50b554d33e46ba"
+    },
+    {
+      "date": 1686629885974,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-10-2023.log",
+      "hash": "c83001c7f10afc16aabfcc8b2223710b288fc9c2c0e6be9312052d6e1b7cb4ba"
+    },
+    {
+      "date": 1686635180460,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-11-2023.log",
+      "hash": "5ff05d194613680c74bb171c686ffe4d745398b48cc8358bfb1f68097393f623"
+    },
+    {
+      "date": 1686636696147,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-12-2023.log",
+      "hash": "b15f450e83effdc4d1e1a1d8b4a265e584823d00807b79a43583aaf34ca4a698"
+    },
+    {
+      "date": 1686652552906,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-16-2023.log",
+      "hash": "e00b91e00cff43c08aa24b980fde7f0779c12c747fbd3ea7983f6f8ed3e29b83"
+    },
+    {
+      "date": 1686670565131,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-13-06-21-2023.log",
+      "hash": "0565e5c497426cfee6e07a218a6fcfaa2d1f6f4a84f432eae6cd2584612efc0e"
+    },
+    {
+      "date": 1686716209612,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-10-2023.log",
+      "hash": "854037f26696401cb2983f3813e8476d293571e31b39fa2cf2434453b51636b5"
+    },
+    {
+      "date": 1686718961027,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-11-2023.log",
+      "hash": "f11cee878ca470431229819fa4c96f5bb1e8d2efd37416cac567a9875e2ddeb4"
+    },
+    {
+      "date": 1686722402482,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-12-2023.log",
+      "hash": "2502d9e0a10067562209e8cc84f2a5663959c59c9c385066bb6959ac6ac7e0e9"
+    },
+    {
+      "date": 1686734152860,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-15-2023.log",
+      "hash": "ca985793fc6c334e3b238e46f3678252b0a86017e460f5808a7c10f6b5c4b008"
+    },
+    {
+      "date": 1686738319878,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-16-2023.log",
+      "hash": "1d390219029ee0bba4125ee724f636cd6aeeeee03c18352b9310d8af6b736cc3"
+    },
+    {
+      "date": 1686742997542,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-17-2023.log",
+      "hash": "16600fa91b093c462192673a01e1aace562a76c41e71ea92bbfe122a9e0adf33"
+    },
+    {
+      "date": 1686745125850,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-18-2023.log",
+      "hash": "c7648033017e90c3dc97ab867b36c481f68138e81c201a76be955759ecf51256"
+    },
+    {
+      "date": 1686751386224,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-20-2023.log",
+      "hash": "a79684982aa359365b88249374dba99423d17aa4bdd5262ae812d540b8c32b63"
+    },
+    {
+      "date": 1686754860556,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-14-06-21-2023.log",
+      "hash": "70d568e53ac5c25c1b104d8afad5b7e50438ac7a4d9d30675ebc4b11a075648f"
+    },
+    {
+      "date": 1686768451527,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-00-2023.log",
+      "hash": "26ed2f428e2fb5a5ea18930cafd64ad12dfaa968e7ca0d0fde9906e89c81fbd1"
+    },
+    {
+      "date": 1686803954451,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-10-2023.log",
+      "hash": "a1c45db38edfcbe0ddf74e51fe4c801dab5a710e848b10d8c7fba7c630d68fe7"
+    },
+    {
+      "date": 1686805388208,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-11-2023.log",
+      "hash": "c7ebb7797b7a3672cc2428af60b373936caee8a7aed13da37a0117560d911c75"
+    },
+    {
+      "date": 1686809816759,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-15-06-12-2023.log",
+      "hash": "18f08883a8c403f86ce67fbd42f431619d3744e51adbcf2016f34db8ea133657"
+    },
+    {
+      "date": 1686926132779,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-20-2023.log",
+      "hash": "6bba3e46e481a4e9413fe7dea30129813900c3c6cf0634e06b446534fdb163e2"
+    },
+    {
+      "date": 1686928174974,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-21-2023.log",
+      "hash": "8ef960d339ae5c0578812f93bfda2d1aeb9d8b186b26b4cd348c18c0923b80f6"
+    },
+    {
+      "date": 1686932564111,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-22-2023.log",
+      "hash": "a1e17396b5898cbb076c99ba4463a95148d8b1d06f0dab5b2a90b3d85972d908"
+    },
+    {
+      "date": 1686936801918,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-16-06-23-2023.log",
+      "hash": "d58d5b125df173ff93a06c1c014723f6fd88bb0f868aa0b2f6049a76389e3f00"
+    },
+    {
+      "date": 1686939477256,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-17-06-00-2023.log",
+      "hash": "3e4498bc9d23cec3b00d0b8234b48bf307a546f479241ba543682466c181b557"
+    },
+    {
+      "date": 1687060296902,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-18-06-09-2023.log",
+      "hash": "56cc0b0c7e7e243920b6f58cb91a74872eb038155d84300416129f201b2a8930"
+    },
+    {
+      "date": 1687060810005,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-18-06-10-2023.log",
+      "hash": "c5710fa5c13b1813d402370e05b06504b6f731a1c89ae59e32e74e080b177277"
+    },
+    {
+      "date": 1687064401166,
+      "name": "D:\\Next-level\\milestone-3\\module-11\\logs\\winston\\errors\\error-18-06-11-2023.log",
+      "hash": "a496d05e47125427a1ac1481b839f4427d0327abfdd6f1f7b15f8dbcc1ac5c08"
+    }
+  ],
+  "hashType": "sha256"
 }
